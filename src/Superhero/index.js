@@ -38,7 +38,7 @@ export function Superhero({ onSubmit }) {
 
                 {!submited ? "" : (
                     dataResults.map((item, index) => (
-                        <p>{key={ item.id} , data = item[index]}</p>
+                        <p>key ={item.id} name = {item.name} </p>
                     )))}
             </div>
         </div>
