@@ -21,7 +21,7 @@ export function Superhero() {
       console.log("helloo ");
       getData();
     }
-  }, [submited]);
+  }, [superhero, submited]);
   function handleChange(e) {
     setSuperhero(e.target.value);
   }
@@ -46,7 +46,7 @@ export function Superhero() {
               <div>
               <HeroImage hero= {item}/>
                 <p>
-                  key ={item.id} name ={item.name}{" "}
+                  {item.name}{" "}
                 </p>
                 <Appearance appearance={item.appearance} />
                 <Appearance appearance={item.biography} />

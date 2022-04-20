@@ -1,6 +1,6 @@
 export function HeroImage({ hero }) {
   const css = {
-    height: "100px",
+    height: "200px",
     border: "3px solid red",
   };
 
